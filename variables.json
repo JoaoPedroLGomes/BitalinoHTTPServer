@@ -1,0 +1,13 @@
+{
+   "20:15:05:29:21:00": 
+	{ 
+	"acqChannels":[1, 2, 3, 4, 5, 6],
+	"samplingRate":1000,
+	"nSamples":250,
+	"digitalOutput":[1,1],
+	"nStop":5,
+	"labels":["nSeq", "I1", "I2", "O1", "O2","A1","A2","A3","A4","A5","A6"],
+	"sendAddress": "192.168.1.5",
+	"port":8888
+	}
+}	
