@@ -24,7 +24,7 @@ def getJsonInfo():
   global nStop
   global send_address
 
-  with open(os.path.dirname(os.path.realpath(__file__)) + '\\variables.json') as data_file:    
+  with open(os.path.dirname(os.path.realpath(__file__)) + '/variables.json') as data_file:    
     data = json.load(data_file)
     for a in data :
       macAddress = a
